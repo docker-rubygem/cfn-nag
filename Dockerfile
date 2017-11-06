@@ -2,7 +2,7 @@ FROM ruby:2.4
 
 MAINTAINER thinkbot@outlook.de
 
-ENV VERSION=0.0.9
+ENV VERSION=0.3.7
 
 RUN gem install cfn-nag --version ${VERSION} --no-format-exec
 
